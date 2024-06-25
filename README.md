@@ -36,6 +36,21 @@ This script reads an image from the camera, preprocesses it, performs detection,
 - `--confidence`: You can select the confidence threshold to filter good detections from poor ones.
 - `--class_id`: You can select a specific object to detect from the list below. The default is `None`, which uses all classes.
 
+
+### Detection Models
+You can select one of the following models to perform detection:
+```
+yolov8@.pt or yolov8@.pt where @={n, s, l, m or x} (default=yolov8n.pt)
+
+Image below presents the comparison of the models in terms of speed and accuracy:
+
+```
+
+<div align="center">
+  <img src="yolo-comparison-plots.png" width="1000px"/><br>
+</div>
+
+
 ### Class IDs
 
 ```
