@@ -45,9 +45,8 @@ yolov8@.pt or yolov8@.pt where @={n, s, m, l or x} (default=yolov8n.pt)
 ```
 Image below presents the comparison of the models in terms of speed and accuracy:
 
-
 <div align="center">
-  <img src="yolo-comparison-plots.png" width="1000px"/><br>
+  <img src="assets/yolo-comparison-plots.png" width="1000px"/><br>
 </div>
 
 
@@ -64,6 +63,9 @@ and run one of the models:
 yolov8@.pt or yolov10@.pt where @={n, s, m, b, l or x} (default=yolov8n.pt)
 
 ```
+<div align="center">
+  <img src="assets/yolov10_image.png" width="1000px"/><br>
+</div>
 
 ### Class IDs
 
